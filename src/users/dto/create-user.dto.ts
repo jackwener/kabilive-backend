@@ -1,5 +1,8 @@
 export class CreateUserDto {
     _id: String
-    name: string
-    description?: string;
+    name: String
+    description: String
+    password: String
+    email: String
+    avatarUrl: String
 }
